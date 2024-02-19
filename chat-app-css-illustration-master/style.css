@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    font-family: "Rubik", sans-serif;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.purple-shape {
+    background: linear-gradient(210deg, #CC41FF 40%, #923AFE 100%);
+    height: 90%;
+    width: 40%;
+    border-radius: 0 0 1000px 1000px;
+    position: absolute;
+    left: -10%;
+    top: 0;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+small {
+    font-weight: 300;
+    font-size: 11px;
+    font-family: inherit;
+    color: #dddddd;
+    opacity: .7;
+}
+
+.fa-solid {
+    cursor: pointer;
+}
+
+.container-phone {
+    background-color: #F4F1F6;
+    border: 10px solid white;
+    border-radius: 50px;
+    height: 690px;
+    width: 327px;
+    position: relative;
+    left: 30%;
+    margin-left: -73px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.15);
+}
+.header-phone {
+    background: rgb(126,52,247);
+    background: linear-gradient(78deg, rgba(126,52,247,1) 30%, rgba(223,59,254,1) 100%);
+    padding: 48px 18px 18px 18px;
+    position: relative;
+    border-radius: 40px 40px 8px 8px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.18);
+}
+
+.white-bar {
+    height: 25px;
+    width: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0 0 20px 20px;
+    margin: 0 auto;
+    background-color: white;
+    position: absolute;
+    top: 0;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.header-left img {
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.container-content {
+    padding: 0 10px;
+    position: relative;
+}
+
+.received, .received2 {
+    width: 63%;
+    padding: 10px;
+    border-radius: 16px 16px 16px 6px;
+    margin-top: 10px;
+    line-height: 14px;
+    background-color: #EAE1F2;
+}
+
+.received p small {
+    color: #68008b!important;
+    opacity: 1;
+    font-weight: 400;
+}
+
+
+.received2 p small {
+    color: #68008b!important;
+    opacity: 1;
+    font-weight: 400;
+}
+
+.paragraph {
+    margin-top: 10px;
+}
+
+.dogs {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    gap: 12px;
+}
+
+.dogs img {
+    border-radius: 10px;
+}
+
+.send-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.send {
+    width: inherit;
+    max-width: 175px;
+    padding: 10px 14px 10px 10px;
+    border-radius: 16px 16px 6px 16px;
+    margin-top: 10px;
+    line-height: 14px;
+    color: black;
+    background-color: #fff;
+    position: relative;
+    right: 0;
+}
+
+.send p small {
+    color: black!important;
+    opacity: 1;
+    font-weight: 400;
+}
+
+.received2 {
+position: absolute;
+}
+
+.radio {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    background: rgb(126,52,247);
+    background: linear-gradient(128deg, #DE39FF 40%, #7F34F9 100%);
+    position: relative;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 16px 16px 16px 6px;
+}
+
+.radio h2 {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 18px;
+}
+
+.radio {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.searchbar {
+    width: 100%;
+    position: relative;
+    margin-top: 18px;
+}
+
+input#search {
+    width: 100%;
+    position: relative;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    padding-left: 25px;
+    font-family: inherit;
+}
+
+button {
+    position: absolute;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 22.5px;
+    top: 50%;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 23px;
+    transform: translateY(-50%);
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.heading-container {
+    z-index: 1;
+    position: absolute;
+    width: 22.5%;
+    right: 22%;
+    color: #462F5D;
+}
+
+.heading-container  h1 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.heading-container p {
+    font-size: 16px;
+    opacity: 0.3;
+    line-height: 180%;
+}
+
+.grey-shape {
+    background-color: #F9F4FA ;
+    height: 90%;
+    width: 40%;
+    border-radius: 1000px 1000px 0 0 ;
+    position: absolute;
+    right: -15%;
+    opacity: 0.4;
+    bottom: 0;
+    z-index: -1;
+}
+
+.heading-container-mobile {
+    display: none;
+}
+
+@media (max-width:1150px) {
+    .container-phone {
+        left: 20%;
+    }
+    .purple-shape {
+        left: -20%;
+    }
+}
+
+@media (max-width:768px) {
+    .container-phone {
+        left: 50%;
+        top: 30px;
+        transform: translateX(-50%);
+        margin: 0;
+    }
+
+    .heading-container {
+        display: none;
+    }
+
+    body {
+        height: inherit;
+    }
+
+    .purple-shape {
+        left: -50%;
+        width: 100%;
+        height: 80%;
+    }
+
+    .grey-shape {
+        width: 60%;
+        height: 80%;
+        bottom:-20%;
+    }
+
+    .heading-container-mobile {
+        display: block;
+        position: absolute;
+        bottom: -120px;
+        padding: 0 20px;
+        text-align: center;
+        color: #462F5D;
+    }
+
+    .heading-container-mobile  h1 {
+        font-size: 34px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    
+    .heading-container-mobile p {
+        font-size: 16px;
+        opacity: 0.3;
+        line-height: 180%;
+    }
+
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.radio label {
+    font-size: 12px;
+    color: white;
+    opacity: 1;
+    margin-left: 20px;
+}
+
+label:before {
+    position: absolute;
+    content: "";
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    top: 50%;
+    opacity: 1;
+    margin-left: -25px;
+    transform: translateY(-50%);
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked + label:before {
+    background-color: white;
+    opacity: 1;
+    width: 12px;
+    height: 12px;
+    border: 2px solid white;
+}
